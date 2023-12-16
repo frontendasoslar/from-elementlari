@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>from elementlari. Input va select</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+  <!-- action="https://echo.htmlacademy.ru" Ma'lumot yuboriladigan server -->
+  <!-- method="post" formaning metodi -->
+  <!-- input type="text" Inputning tipi -->
+  <!-- name="fulname" Serverga boradigan nom -->
+  <!-- placeholder="Ism va Familiya" inputning ichida ko'rinib uradigan eslatma-->
+  <!-- <label for="F.I.SH">Ism va Familiya</label>M'lumot kiritiladigan maydonni oldida turadigan matn uchin ishlatiladi. for va id ichidagi matinlar bir hil bo'lishi kerak -->
+  <!-- required maydonga ma'lumot kiritilmasa ma'lumot kiritishni so'raydi -->
+  <form action="https://echo.htmlacademy.ru" method="post">
+    <div>
+      <label for="F.I.SH">Ism va Familiya</label>
+      <input type="text" name="fulname" id="F.I.SH" placeholder="Ism va Familiya" required>
+    </div>
+  </form>
 </body>
 </html>
