@@ -44,3 +44,13 @@ img {
   flex-direction: column;
   display: flex;
 }
+
+textarea {
+display: block;
+width: 100%;
+min-height: 80px;
+resize:vertical;
+/* resize: none; M'lumot kiritiladigan maydonni eni xam bo'yi xam o'zgarmaydi*/
+/* resize:horizontal; M'lumot kiritiladigan maydonni faqat eni o'zgaradi*/
+/* resize:vertical; M'lumot kiritiladigan maydonni faqat bo'yi o'zgaradi*/
+}
